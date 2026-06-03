@@ -1,0 +1,52 @@
+[
+  {
+    "instruction": "Classify this security alert",
+    "input": "Failed login attempt from IP 203.0.113.45 - 5 attempts in 30 seconds",
+    "output": "MEDIUM severity - Possible brute force attack. Investigation recommended."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "SQL injection detected in web request: ' OR '1'='1",
+    "output": "HIGH severity - SQL injection attempt. Immediate investigation required."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "Port scan detected: 10 ports scanned from 198.51.100.78 in 2 seconds",
+    "output": "MEDIUM severity - Network reconnaissance detected. Block IP if continues."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "Malware signature detected: 'Trojan.Generic' in file C:\\Windows\\temp\\malware.exe",
+    "output": "CRITICAL severity - Malware detected. Isolate system immediately."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "Suspicious outbound connection to known C2 domain: evil-domain.com",
+    "output": "HIGH severity - Potential command and control communication detected."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "User authentication success after 2 failed attempts",
+    "output": "LOW severity - Normal user behavior. No action needed."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "Large data transfer from internal server to external IP (5GB)",
+    "output": "HIGH severity - Possible data exfiltration. Investigate source."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "Privilege escalation attempt: user tried to access admin files",
+    "output": "HIGH severity - Privilege escalation attempt. Review user permissions."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "Firewall blocked inbound connection from known malicious IP 45.33.22.11",
+    "output": "MEDIUM severity - Blocked attack attempt. Monitor for further attempts."
+  },
+  {
+    "instruction": "Classify this security alert",
+    "input": "System update installed successfully",
+    "output": "INFO - Routine system maintenance. No security concern."
+  }
+]
